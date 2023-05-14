@@ -1,0 +1,161 @@
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+:root {
+  --title-link-color: #404bbf;
+  --title-first-color: #2e2f42;
+  --text-color: #434455;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.title-buttons {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.logo-text {
+  background: #434455;
+}
+.section-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.team-text {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.top-employee {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+/* ================= COMPONENTS ================= */
+.web-logo {
+  color: #4d5ae5;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-first-color);
+}
+/* ================= Header ================= */
+.menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--title-first-color);
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--title-link-color);
+}
+.contact-tel:hover,
+.contact-tel:focus {
+  color: var(--title-link-color);
+}
+.contact-mail:hover,
+.contact-mail:focus {
+  color: var(--title-link-color);
+}
+.contact-mail {
+  color: var(--text-color);
+}
+.contact-tel {
+  color: var(--text-color);
+}
+.contact-address {
+  font-style: normal;
+}
+/* =================== Hero =================== */
+.hero {
+  background: #434455;
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.modal-btn {
+  cursor: pointer;
+  background: #4d5ae5;
+  color: #ffffff;
+}
+.modal-btn:hover,
+.modal-btn:focus {
+  background: #404bbf;
+}
+.navigatiom-button {
+  cursor: pointer;
+  background: #f4f4fd;
+  color: #4d5ae5;
+}
+/* =================== to success =================== */
+.skills-item-top {
+  color: var(--title-first-color);
+}
+.skills-text {
+  color: var(--text-color);
+}
+/* =================== What are we doing =================== */
+.about-item-text {
+  color: var(--title-first-color);
+}
+/* =================== Our Team =================== */
+.title-team {
+  color: var(--title-first-color);
+}
+.name-employee {
+  color: var(--title-first-color);
+}
+.position-employee {
+  color: var(--text-color);
+}
+/* =================== Footer =================== */
+.text-footer {
+  color: #f4f4fd;
+}
+/* =================== Portfolio =================== */
+.portfolio-button:hover,
+.portfolio-button:focus {
+  cursor: pointer;
+  background: #404bbf;
+  color: #ffffff;
+}
+.img-first-text {
+color: var(--title-first-color)
+}
+.text-second {
+  color: var(--text-color)
+}
