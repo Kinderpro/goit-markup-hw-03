@@ -79,6 +79,7 @@ body {
   
 }
 .logo { 
+  display: inline-block;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -97,8 +98,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  
 }
 .main-nav {
   display: flex;
@@ -111,10 +111,13 @@ align-items: center;
 
 .address-item :not(:last-child) {
 margin-right: 40px;
+
 }
 .menu {
  display: flex;
  align-items: center;
+ padding-top: 24px;
+ padding-bottom: 24px;
 }
 .menu-link {
   font-weight: 500;
@@ -148,13 +151,13 @@ margin-right: 40px;
   display: flex;
  flex-direction: column;
  align-items: center;
- padding-top: 188px;
- padding-bottom: 188px;
+ 
 }
 
 .hero {
   background: #2e2f42;
-  
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .hero-title {
   font-weight: 700;
@@ -242,10 +245,11 @@ margin-right: 40px;
 }
 .name-employee {
   color: var(--title-first-color);
-  padding-bottom: 8px;
   text-align: center;
-  
+  margin-bottom: 8px;
+
 }
+
 .position-employee {
   color: var(--text-color);
   text-align: center;
@@ -261,7 +265,6 @@ margin-right: 40px;
   padding-bottom: 100px;
 }
 .logo-link-container {
-  display: inline-block; 
   margin-bottom: 16px;
 }
 .logo-container {
