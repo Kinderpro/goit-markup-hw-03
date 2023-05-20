@@ -17,6 +17,9 @@ ol {
 img {
   display: block;
 }
+.logo-link-container {
+  display: inline-block;
+}
 
 .link {
   text-decoration: none;
@@ -268,13 +271,11 @@ margin-right: 40px;
 .logo-link-container {
   display: inline-block;
   margin-bottom: 16px;
-  
 }
 .logo-container {
   display: flex;
   flex-direction: column;
 }
-
 .text-footer {
   width: 267px;
   color: #f4f4fd;
