@@ -90,6 +90,9 @@ body {
 }
 
 /* ================= Header ================= */
+.main-header {
+  border-bottom: 1px solid #e7e9fc
+}
 .main-container {
   display: flex;
   align-items: center;
@@ -145,7 +148,8 @@ margin-right: 40px;
   display: flex;
  flex-direction: column;
  align-items: center;
-  
+ padding-top: 188px;
+ padding-bottom: 188px;
 }
 
 .hero {
@@ -159,9 +163,9 @@ margin-right: 40px;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  width: 496px;
+  max-width: 496px;
   margin: auto;
-  margin-top: 188px;
+  
 }
 .style-btn {
   font-family: "Roboto", sans-serif
@@ -174,7 +178,7 @@ margin-right: 40px;
   background: #4d5ae5;
   color: #ffffff;
   margin-top: 48px;
-  margin-bottom: 188px;
+  border: none;
   border-radius: 4px;
   
 }
@@ -183,7 +187,10 @@ margin-right: 40px;
   background: #404bbf;
 }
 /* =================== to success =================== */
-
+.section-skill {
+  padding-top:  120px;
+  padding-bottom: 120px;
+}
 .skill-list {
   display: flex;
   gap: 24px;
@@ -191,15 +198,17 @@ margin-right: 40px;
 .skill-title {
   color: var(--title-first-color);
   margin-bottom: 8px;
-  margin-top: 124px;
+  
 }
 .skill-text {
   color: var(--text-color);
   width: 264px;
-  margin-bottom: 120px;
+  
 }
 /* =================== What are we doing =================== */
-
+.about {
+  padding-bottom: 120px;
+}
 .about-list {
   display: flex;
   gap: 24px; 
@@ -210,57 +219,60 @@ margin-right: 40px;
   margin: 0 auto;
   margin-bottom: 72px;
 }
-.about-list-item {
-  margin-bottom: 120px;
-}
+
 /* =================== Our Team =================== */
+.name-container {
+  padding: 32px 16px;
+}
+.my-team {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .team-list {
   display: flex;
   gap: 24px;
-  justify-content: center;
-  padding-bottom: 120px;
+  justify-content: center;  
 }
-
 .my-team {
   background-color: #F4F4FD;
 }
 .title-team {
   color: var(--title-first-color);
   margin-bottom: 72px;
-  padding-top: 120px;
 }
-
 .name-employee {
   color: var(--title-first-color);
-  margin-bottom: 8px;
-  margin-top: 32px;
+  padding-bottom: 8px;
+  text-align: center;
   
 }
 .position-employee {
   color: var(--text-color);
-  margin-bottom: 32px;
+  text-align: center;
 }
 .team-item {
   background-color: #FFFFFF;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
+  
+  border-radius: 0px 0px 4px 4px;
 }
 /* =================== Footer =================== */
+.logo-text {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.logo-link-container {
+  display: inline-block; 
+  margin-bottom: 16px;
+}
 .logo-container {
   display: flex;
   flex-direction: column;
-}
-.logo-footer-container {
-margin-top: 100px;
 }
 
 .text-footer {
   width: 267px;
   color: #f4f4fd;
- margin-bottom: 100px;
- margin-top: 16px;
+ 
 }
 .logo-studio {
   color: #f4f4fd;   
@@ -270,24 +282,35 @@ margin-top: 100px;
   
 }
 /* =================== Portfolio =================== */
+.hero-portfolio {
+  padding-top: 96px; 
+  padding-bottom: 120px;
+}
 .buttons-container {
   display: flex;
   justify-content: center;
   gap: 24px;
-  margin-top: 96px;
-  margin-bottom: 72px;
-
+  margin-bottom: 72px ;
+  
 }
+.menu-container {
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;
+}
+
 .img-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 24px;
-  margin-bottom: 120px;
+  row-gap: 48px;
+  
 }   
 
 .portfolio-button{
   font-family: "Roboto", sans-serif
+
   
 }
 .navigatiom-button {
@@ -296,24 +319,25 @@ margin-top: 100px;
   background: #f4f4fd;
   color: #4d5ae5;
   border: 1px solid #E7E9FC;
-  border-radius: 4px
+  border-radius: 4px;
+  padding: 12px 24px;
+  
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
   cursor: pointer;
   background: #404bbf;
   color: #ffffff;
+  border: 1px solid transparent
 }
 .img-first-text {
 line-height: 1.2;
 color: var(--title-first-color);
 margin-bottom: 8px;
-margin-top: 32px;
-margin-left: 16px;
+
 }
 .text-second {
   color: var(--text-color);
-  margin-left: 16px;
-  margin-bottom: 32px;
+  
 }
 
