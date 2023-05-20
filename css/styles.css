@@ -260,13 +260,15 @@ margin-right: 40px;
   border-radius: 0px 0px 4px 4px;
 }
 /* =================== Footer =================== */
+
 .logo-text {
   padding-top: 100px;
   padding-bottom: 100px;
 }
 .logo-link-container {
-  margin-bottom: 16px;
   display: inline-block;
+  margin-bottom: 16px;
+  
 }
 .logo-container {
   display: flex;
@@ -280,7 +282,7 @@ margin-right: 40px;
 }
 .logo-studio {
   color: #f4f4fd;
-  display: inline-block;   
+     
 }
 .logo-text {
   background-color: #2e2f42;
