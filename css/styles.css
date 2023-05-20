@@ -117,8 +117,7 @@ margin-right: 40px;
 .menu {
  display: flex;
  align-items: center;
- padding-top: 24px;
- padding-bottom: 24px;
+ 
 }
 .menu-link {
   font-weight: 500;
@@ -126,7 +125,8 @@ margin-right: 40px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--title-first-color);
-  
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .menu-item:not(:last-child) {
   margin-right: 40px;
@@ -265,8 +265,8 @@ margin-right: 40px;
   padding-bottom: 100px;
 }
 .logo-link-container {
-  display: inline-block;
   margin-bottom: 16px;
+  display: inline-block;
 }
 .logo-container {
   display: flex;
@@ -279,7 +279,8 @@ margin-right: 40px;
  
 }
 .logo-studio {
-  color: #f4f4fd;   
+  color: #f4f4fd;
+  display: inline-block;   
 }
 .logo-text {
   background-color: #2e2f42;
